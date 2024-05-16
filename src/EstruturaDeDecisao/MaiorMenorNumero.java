@@ -15,6 +15,8 @@ public class MaiorMenorNumero {
 		System.out.println("Digite o terceiro n�mero --> ");
 		num3 = e.nextDouble();
 
+
+/*
 		for(int i =0; i <=1; i++ ) {
 			
 			
@@ -22,7 +24,7 @@ public class MaiorMenorNumero {
 			
 			
 			
-			/*
+
 			 * if (num1 > num2 && num1 > num3) { // verifica qual � o maior n�mero maiorNum
 			 * = num1; System.out.println("O maior n�mero � --> " + maiorNum); } else if
 			 * (num2 > num1 && num2 > num3) { maiorNum = num2;
@@ -38,8 +40,9 @@ public class MaiorMenorNumero {
 			 * System.out.println("O menor n�mero � --> " + menorNum); }else {
 			 * System.out.println("Os n�meros s�o iguais --> " + num1 +" -> "+ num2 +
 			 * " --> " + num3 ); }
-			 		}*/
+			 		}
 
 	}
-
+*/
+  }
 }
