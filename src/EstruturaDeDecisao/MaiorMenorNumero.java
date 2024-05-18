@@ -14,8 +14,6 @@ public class MaiorMenorNumero {
 		num2 = e.nextDouble();
 		System.out.println("Digite o terceiro n�mero --> ");
 		num3 = e.nextDouble();
-
-
 /*
 		for(int i =0; i <=1; i++ ) {
 			
@@ -40,9 +38,8 @@ public class MaiorMenorNumero {
 			 * System.out.println("O menor n�mero � --> " + menorNum); }else {
 			 * System.out.println("Os n�meros s�o iguais --> " + num1 +" -> "+ num2 +
 			 * " --> " + num3 ); }
-			 		}
+			 		}*/
 
 	}
-*/
-  }
+
 }

@@ -1,14 +1,23 @@
 package InteligenciaArtificial;
 
+import java.util.Scanner;
+
 import static java.lang.Math.abs;
 
 public class ValorDeGorjeta {
     public static void main(String[] args) {
+        Scanner e = new Scanner(System.in);
+
         double servico_pobre, servico_regular, servico_bom;
         double comida_ruim, comida_aceitavel, comida_boa;
         double tip_baixa, tip_normal, tip_alta, tip_valor;
-        double qualidade_servico = 4;
-        double qualidade_comida = 3;
+        double qualidade_servico;
+        double qualidade_comida;
+
+        System.out.println("Qual a nota para a qualidade do serviço?  ");
+        qualidade_servico = e.nextDouble();
+        System.out.println("Qual a nota para a qualidade da comida?  ");
+        qualidade_comida = e.nextDouble();
 
         servico_pobre = Math.max(0,1 - (qualidade_servico - 1)/2);
         servico_regular = Math.max(0,1 - abs(qualidade_servico - 3)/2);
