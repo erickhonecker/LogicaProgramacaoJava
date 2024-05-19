@@ -10,7 +10,11 @@ public class MainVetor {
             vetor.adiciona("Elemento 2");
             vetor.adiciona("Elemento 3");
 
+
         System.out.println(vetor.tamanho());
         System.out.println(vetor);
+        System.out.println(vetor.busca(0));
+        System.out.println(vetor.busca("Elemento 2"));
+        System.out.println(vetor.busca("elemento 4"));
     }
 }
