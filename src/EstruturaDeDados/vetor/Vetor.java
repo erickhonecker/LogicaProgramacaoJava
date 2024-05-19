@@ -1,5 +1,7 @@
 package EstruturaDeDados.vetor;
 
+import java.util.Arrays;
+
 public class Vetor {
 
     private String[] elementos;
@@ -19,10 +21,28 @@ public class Vetor {
           }
         return false;
         }
+        public int tamanho(){
+            return this.tamanho;
+        }
 
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append("[");
 
+        for(int i = 0; i <this.tamanho-1; i++){
+            s.append(this.elementos[i]);
+            s.append(", ");
 
-    /* Existe uma opção que melhor
+        }
+        if (this.tamanho>0){
+            s.append(this.elementos[this.tamanho-1]);
+        }
+        s.append("]");
+        return s.toString();
+    }
+
+        /* Existe uma opção que melhor
 
         public void adiciona(String elemento) throws Exception {
         if (this.tamanho < this.elementos.length) {
